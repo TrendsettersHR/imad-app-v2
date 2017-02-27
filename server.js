@@ -24,8 +24,9 @@ var port = 8080; // Use 8080 for local development because you might already hav
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
-var counter = 0
+
+var counter = 0;
 app,get('/counter', function(req,res) {
-    counter = counter +1
-    res.send(counter.tostring())
+    counter = counter +1;
+    res.send(counter.tostring());
 });
