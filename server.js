@@ -31,5 +31,6 @@ app.get('/counter', function(req,res) {
     res.send(counter.toString());
 });
 app.get('/page1',function(req,res){
-    res.send("This is Page1");
+    res.sendFile(path.join(__dirname, 'ui', 'page1.html'));
 });
+  //  res.send("This is Page1");
