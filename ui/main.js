@@ -3,3 +3,8 @@ console.log('Loaded!');
 
 var element = document.getElementById("main-text");
 element.InnerHTML = "This value is inserted in the main.js";
+var img = document.getElementById("croc");
+img.onclick = function ()
+{
+    img.style.marginleft = "100px";
+};
