@@ -36,5 +36,5 @@ app.get('/page1',function(req,res){
   //  res.send("This is Page1");
 
 app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'ui/main.js'));
 });
