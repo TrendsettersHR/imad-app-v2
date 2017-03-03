@@ -14,7 +14,7 @@ var element = document.getElementById("main-text"
 alert("Executed Up to here");
 element.InnerHTML = "This value is inserted in the main.js";
  
-lert("Executed after assigning new value to element");
+alert("Executed after assigning new value to element");
 var img = document.getElementById("croc");
 img.onclick = function ()
 {
