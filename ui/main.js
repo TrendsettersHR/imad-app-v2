@@ -13,8 +13,8 @@ var element = document.getElementById("main-text"
 );
 alert("Executed Up to here");
 element.InnerHTML = "This value is inserted in the main.js";
-alert("Executed after assigning the new value in element");
-
+ 
+lert("Executed after assigning new value to element");
 var img = document.getElementById("croc");
 img.onclick = function ()
 {
