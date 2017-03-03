@@ -1,4 +1,4 @@
-// console.log('Loaded!');
+ console.log('Loaded!');
 
 // self executing function here
 (function() {
