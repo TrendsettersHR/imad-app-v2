@@ -4,6 +4,7 @@ console.log('Loaded!');
 var element = document.getElementById("main-text");
 alert("Executed Up to here");
 element.InnerHTML = "This value is inserted in the main.js";
+
 var img = document.getElementById("croc");
 img.onclick = function ()
 {
