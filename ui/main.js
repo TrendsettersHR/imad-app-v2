@@ -1,4 +1,12 @@
 // console.log('Loaded!');
+
+// self executing function here
+(function() {
+   // your page initialization code here
+   // the DOM will be available here
+   // write HTML modifying code here
+
+})();
 //let me add this line so that it can read the next line..
 
 var element = document.getElementById("main-text"
