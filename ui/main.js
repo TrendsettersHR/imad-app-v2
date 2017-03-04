@@ -1,4 +1,4 @@
-alert ("This is from main.js");
+alert("This is from main.js");
 
 var element=document.getElementById("main-text") ;
 element.innerHTML = "New Value";
