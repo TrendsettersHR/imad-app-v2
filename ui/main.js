@@ -1,7 +1,7 @@
 alert ("This is from main.js");
 
 var element=document.getElementById("main-text") ;
-element.InnerHTML = "New Value";
+element.innerHTML = "New Value";
  
  
  var button = document.getElementById("counter");
