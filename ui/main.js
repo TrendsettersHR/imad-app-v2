@@ -1,3 +1,7 @@
+var element=document.getElementById("main-text") ;
+element.InnerHTML = "New Value";
+ 
+ 
  var button = document.getElementById("counter");
  var count = 0;
  button.onclick = function() {
