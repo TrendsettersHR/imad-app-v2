@@ -1,22 +1,6 @@
- console.log('Loaded!');
-
-// self executing function here
-(function() {
-   // your page initialization code here
-   // the DOM will be available here
-   // write HTML modifying code here
-
-})();
-//let me add this line so that it can read the next line..
-
-var element = document.getElementById("main-text"
-);
-alert("Executed Up to here");
-element.InnerHTML = "This value is inserted in the main.js";
- 
-alert("Executed after assigning new value to element");
-var img = document.getElementById("croc");
-img.onclick = function ()
-{
-    img.style.marginleft = "100px";
-};
+ var button = document.getElementById("counter");
+ button.onclick = function() {
+     counter = counter+1;
+     var span = document.getElementById("count");
+     span.innerHTML = counter.toString();
+ };
