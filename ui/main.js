@@ -1,3 +1,5 @@
+alert ("This is from main.js");
+
 var element=document.getElementById("main-text") ;
 element.InnerHTML = "New Value";
  
