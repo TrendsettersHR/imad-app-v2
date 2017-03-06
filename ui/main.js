@@ -1,3 +1,7 @@
+
+
+
+
 alert("Hi am from main.js let us see if main-text changes to new value");
 var element = document.getElementByID("main-text");
 element.innerHTML = "New Value";
