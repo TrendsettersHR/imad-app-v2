@@ -3,11 +3,10 @@
 
 
 alert("Hi am from main.js let us see if main-text changes to new value");
-
-document.getElementById("demo").innerHTML = "Hello" +
-    "Dolly.";
-var element = document.getElementByID("main-text");
-element.innerHTML = "New Value";
+document.getElementById("thisone").innerHTML = "Hello" + 
+"Dolly!";
+ 
+ 
 //window.onload= function()
 //{
 //alert("Hi am from main.js");
