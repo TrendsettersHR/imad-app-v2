@@ -4,16 +4,26 @@
 
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
+
+$(document).ready(function(e) {
+    var width = "+=" + $(document).width();
+    $("#animate").animate({
+    left: width
+  }, 5000, function() {
+    // Animation complete.
+  });
+});
   // document.getElementById('croc').onclick = function()
   //        {
    //       document.getElementById('croc').style.marginleft = '100px';
   //    };
   
- document.getElementById("croc").onclick = function() {myFunction()};
+ //document.getElementById("croc").onclick = function() {myFunction()};
 
-function myFunction() {
-    document.getElementById("croc").innerHTML = "YOU CLICKED ME!";
-}
+//function myFunction() {
+//    
+ //   document.write("<br/><br/><br/><br/><br/><br Hello <br/> Dolly.");
+//};
 //window.onload= function()
 //{
 //alert("Hi am from main.js");
