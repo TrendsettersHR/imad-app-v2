@@ -7,7 +7,7 @@ element.innerHTML = "New Value";
 //var element = document.getElementByID("main-text");
 //element.innerHTML = "New Value";
 //};
-alert("Has it changed???")
+alert("Has it changed???");
 $('document').ready(function(){
       var element = document.getElementById('main-text');
       element.innerHTML = 'This value is inserted in the main.js';
