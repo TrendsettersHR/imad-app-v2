@@ -4,13 +4,16 @@
 
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
-  document.getElementById('croc').onclick = function()
-          {
-          document.getElementById('croc').style.marginleft = '100px';
-      };
+  // document.getElementById('croc').onclick = function()
+  //        {
+   //       document.getElementById('croc').style.marginleft = '100px';
+  //    };
   
- 
- 
+ document.getElementById("croc").onclick = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("croc").innerHTML = "YOU CLICKED ME!";
+}
 //window.onload= function()
 //{
 //alert("Hi am from main.js");
