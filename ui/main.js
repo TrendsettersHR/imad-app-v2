@@ -3,8 +3,8 @@
 
 
 alert("Hi am from main.js let us see if main-text changes to new value");
-document.getElementById("thisone").innerHTML = "Hello" + 
-"Dolly!";
+document.getElementById("thisone").innerHTML = "Hello" ;
+ 
  
  
 //window.onload= function()
