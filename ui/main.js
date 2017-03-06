@@ -5,6 +5,11 @@
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
  var img = document.getElementById('croc');
+      img.onclick = function ()
+      {
+          img.style.marginleft = '100px';
+      };
+  
  
  
 //window.onload= function()
