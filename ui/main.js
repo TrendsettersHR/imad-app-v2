@@ -12,12 +12,12 @@ element.innerHTML = "New Value";
 //element.innerHTML = "New Value";
 //};
 alert("Has it changed???");
-$('document').ready(function(){
-      var element = document.getElementById('main-text');
-      element.innerHTML = 'This value is inserted in the main.js';
-      var img = document.getElementById('croc');
-      img.onclick = function ()
-      {
-          img.style.marginleft = '100px';
-      };
-});
+//$('document').ready(function(){
+ //     var element = document.getElementById('main-text');
+//      element.innerHTML = 'This value is inserted in the main.js';
+//      var img = document.getElementById('croc');
+//      img.onclick = function ()
+//      {
+//          img.style.marginleft = '100px';
+//      };
+//});
