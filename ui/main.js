@@ -4,7 +4,7 @@
 
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
- 
+ var img = document.getElementById('croc');
  
  
 //window.onload= function()
