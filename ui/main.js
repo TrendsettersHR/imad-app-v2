@@ -16,7 +16,7 @@ var imgObj = null;
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
             }
             
-            window.onload =init;
+            // window.onload =init;
  
  
   // document.getElementById('croc').onclick = function()
