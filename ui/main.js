@@ -4,15 +4,21 @@
 
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
-
-$(document).ready(function(e) {
-    var width = "+=" + $(document).width();
-    $("#animate").animate({
-    left: width
-  }, 5000, function() {
-    // Animation complete.
-  });
-});
+var imgObj = null;
+            
+            function init(){
+               imgObj = document.getElementById('mypic');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            
+            function moveRight(){
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+            }
+            
+            window.onload =init;
+ 
+ 
   // document.getElementById('croc').onclick = function()
   //        {
    //       document.getElementById('croc').style.marginleft = '100px';
