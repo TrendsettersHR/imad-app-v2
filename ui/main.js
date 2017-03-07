@@ -14,6 +14,7 @@ var imgObj = null;
             alert("now i am moving right by 100");
             function moveRight(){
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
+               count = count + 1;
             }
             
              window.onload =init;
