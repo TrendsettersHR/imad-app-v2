@@ -5,6 +5,7 @@
 alert("Hi am from main.js let us see if main-text changes to new value");
 document.getElementById("thisone").innerHTML = "Hello" ;
 var imgObj = null;
+var count = 0;
             
             function init(){
                imgObj = document.getElementById('mypic');
