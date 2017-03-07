@@ -16,6 +16,8 @@ var count = 0;
             function moveRight(){
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                count = count + 1;
+               var x = document.getElementById(count);
+               
             }
             
              window.onload =init;
