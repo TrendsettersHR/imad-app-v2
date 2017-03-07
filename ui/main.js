@@ -17,32 +17,13 @@ var imgObj = null;
             }
             
             // window.onload =init;
+ var button = document.getElementById("counter");
+ button.onclick = function()
+ {
+  counter = counter+1;
+  var span = document.getElementById("count");
+  span.innerHTML = counter.toString();
+ };
  
+    
  
-  // document.getElementById('croc').onclick = function()
-  //        {
-   //       document.getElementById('croc').style.marginleft = '100px';
-  //    };
-  
- //document.getElementById("croc").onclick = function() {myFunction()};
-
-//function myFunction() {
-//    
- //   document.write("<br/><br/><br/><br/><br/><br Hello <br/> Dolly.");
-//};
-//window.onload= function()
-//{
-//alert("Hi am from main.js");
-//var element = document.getElementByID("main-text");
-//element.innerHTML = "New Value";
-//};
-alert("Has it changed???");
-//$('document').ready(function(){
- //     var element = document.getElementById('main-text');
-//      element.innerHTML = 'This value is inserted in the main.js';
-//      var img = document.getElementById('croc');
-//      img.onclick = function ()
-//      {
-//          img.style.marginleft = '100px';
-//      };
-//});
