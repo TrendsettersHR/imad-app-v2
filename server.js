@@ -24,7 +24,7 @@ app.get('/ui/madi.png', function (req, res) {
 var config = {
   host: 'db.imad.hasura-app.io',
   user: 'trendsettershr',
-  password: 'db-trendsettershr-43040',
+  password: "db-trendsettershr-43040",
   database: 'trendsettershr',
   port:'5432',
 };
