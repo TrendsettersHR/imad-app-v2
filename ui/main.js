@@ -12,12 +12,12 @@ var count = 0;
                imgObj.style.position= 'relative'; 
                imgObj.style.left = '0px'; 
             }
-            alert("now i am moving right by 100");
+   //         alert("now i am moving right by 100");
             function moveRight(){
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                count = count + 1;
                var x = document.getElementById(count);
-               
+               document.getElementById("count").innerHTML;
             }
             
              window.onload =init;
