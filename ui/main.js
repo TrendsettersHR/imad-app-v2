@@ -15,11 +15,11 @@ var count = 0;
    //         alert("now i am moving right by 100");
             function moveRight(){
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
-               count = count + 1;
+              // count = count + 1;
               
-               alert ("where is count shown?");
-               var x = document.getElementById("count");
-               alert ("did you find the count displayed?");
+               //alert ("where is count shown?");
+             //  var x = document.getElementById("count");
+             //  alert ("did you find the count displayed?");
             }
             
              window.onload =init;
