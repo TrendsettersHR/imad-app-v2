@@ -18,7 +18,7 @@ var count = 0;
                count = count + 1;
               
                alert ("where is count shown?");
-               document.getElementById("count").innerHTML;
+               var x = document.getElementById("count");
                alert ("did you find the count displayed?");
             }
             
