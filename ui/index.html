@@ -36,9 +36,17 @@
 </div>
 
 
- <script>
- alert(" just before x.innerHTML");
-x.InnerHTML = count.toString();  
+ <p id="demo">0</p>
+
+<script>
+var add = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+
+function myFunction(){
+    document.getElementById("demo").innerHTML = add();
+}
 </script>
 <div>
    times 
