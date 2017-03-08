@@ -38,12 +38,12 @@
 <button type="button" onclick="myFunction()">Count!</button>
     <!--This button <button id = "counter"> Click me! </button> has been clicked  -->
 
- <p id="demo">0</p>
+ <p id="demo">0 times</p>
 
 <script>
  
 var add = (function () {
-    
+    var counter = 0;
     return function () {return counter += 1;}
 })();
 
@@ -51,9 +51,7 @@ function myFunction(){
     document.getElementById("demo").innerHTML = add();
 }
 </script>
-<div>
-   times 
-</div>
+
 <!--/* </div> -->
  
         
