@@ -17,7 +17,9 @@ var count = 0;
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                count = count + 1;
                var x = document.getElementById(count);
+               alert ("where is count shown?");
                document.getElementById("count").innerHTML;
+               alert ("did you find the count displayed?");
             }
             
              window.onload =init;
