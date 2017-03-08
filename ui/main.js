@@ -13,8 +13,14 @@ var imgObj = null;
                imgObj.style.left = '0px'; 
             }
    //         alert("now i am moving right by 100");
+   
             function moveRight(){
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
+               var add = (function () {
+    var counter = 0;
+    return function () {return counter += 1;};
+})();
+               document.getElementById("demo").innerHTML = add();
               // count = count + 1;
               
                //alert ("where is count shown?");
