@@ -14,15 +14,17 @@ var imgObj = null;
             }
    //         alert("now i am moving right by 100");
    
-   var add = (function () {
-    var counter = 0;
-    return function () {return counter += 1;};
-})();
+  // var add = (function () {
+   // var counter = 0;
+  //  return function () {return counter += 1;};
+//})();
    
     
 function moveRight(){
+    counter = 0;
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
-                document.getElementById("temp").innerHTML = add();
+               counter = counter + 1;
+                document.getElementById("temp").innerHTML = counter;  
 }
    
              window.onload =init;
