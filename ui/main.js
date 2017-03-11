@@ -19,14 +19,17 @@ var imgObj = null;
   //  return function () {return counter += 1;};
 //})();
    
-   var counter = 0;  
+   var counter = 0;
+   var tempdisp1 = null;
+   var tempdisp2 = null;
+   
 function moveRight(){
   
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                counter = counter + 1;
-                document.getElementById("tempdisp").innerHTML = "You have clicked " ;
+                document.getElementById("tempdisp1").innerHTML = "You have clicked " ;
                 document.getElementById("temp").innerHTML = counter; 
-                document.getElementsById("tempdisp").innerHTML = "times!!";
+                document.getElementsById("tempdisp2").innerHTML = "times!!";
                 
 }
    
