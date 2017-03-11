@@ -27,9 +27,7 @@ function moveRight(){
   
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                counter = counter + 1;
-                document.getElementById("tempdisp1").innerHTML = "You have clicked " ;
-                document.getElementById("temp").innerHTML = counter; 
-                document.getElementsById("tempdisp2").innerHTML = "times!!";
+               
                 
 }
    
