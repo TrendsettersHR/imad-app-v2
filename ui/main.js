@@ -26,7 +26,7 @@ function moveRight(){
   
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                counter = counter + 1;
-               var span = getElementById("cnt");
+               var span = document.getElementById("cnt");
                span.innerHTML = counter; 
                
                 
