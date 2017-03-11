@@ -19,9 +19,9 @@ var imgObj = null;
   //  return function () {return counter += 1;};
 //})();
    
-    
+   var counter = 0;  
 function moveRight(){
-    counter = 0;
+  
                imgObj.style.left = parseInt(imgObj.style.left) + 100 + 'px';
                counter = counter + 1;
                 document.getElementById("temp").innerHTML = counter;  
