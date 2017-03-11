@@ -20,8 +20,7 @@ var imgObj = null;
 //})();
    
    var counter = 0;
-   var tempdisp1 = null;
-   var tempdisp2 = null;
+ 
    
 function moveRight(){
   
